@@ -1,0 +1,37 @@
+.header{
+    top: 0;
+    position: sticky;
+    width: 100%;
+    z-index: 50;
+    background-color: #23272F;
+    display: flex;
+    justify-content: center;
+    height: 70px;
+    opacity: 0.9;
+    align-items: center;
+}
+
+.header .buttons{
+    display: flex;
+    text-align: center;
+    gap: 20px;
+    justify-content: center;
+    align-items: center;
+    height: 50px;
+}
+
+.buttons .button{
+    font-weight: bold;
+    font-size: 1rem;
+    border-radius: 8px;
+    cursor: pointer;
+    height: 70%;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    padding: 10px;
+}
+
+.buttons .button:hover{
+   background-color: #3a3d41;
+}
