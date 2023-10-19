@@ -17,7 +17,7 @@ export const Layout = () => {
       <Element name="servicios">
         <Services />
       </Element>
-      <Element name="contactanos" style={{width:"100%"}}>
+      <Element name="contactanos" style={{ width: '100%' }}>
         <Footer />
       </Element>
     </div>

@@ -4,7 +4,7 @@ import { Link } from 'react-scroll';
 export const Header = () => {
   return (
     <div className="header">
-      <div className="logo"></div>
+      <div className="logo">b</div>
       <div className="buttons">
         <div className="button">
           <Link
@@ -18,7 +18,7 @@ export const Header = () => {
           </Link>
         </div>
         <div className="button">
-        <Link
+          <Link
             to="servicios"
             spy={true}
             smooth={true}
@@ -29,7 +29,7 @@ export const Header = () => {
           </Link>
         </div>
         <div className="button">
-        <Link
+          <Link
             to="contactanos"
             spy={true}
             smooth={true}

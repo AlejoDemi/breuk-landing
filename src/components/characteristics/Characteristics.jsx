@@ -1,5 +1,5 @@
 import './Characteristics.css';
-import avatar from "../../assets/avatar.png"
+import avatar from '../../assets/avatar.png';
 
 export const Characteristics = () => {
   return (
@@ -7,10 +7,7 @@ export const Characteristics = () => {
       <div className="title-image">
         <div className="title">Quiénes somos</div>
         <div className="image-container">
-          <img
-            src={avatar}
-            alt="foto"
-          />
+          <img src={avatar} alt="foto" />
         </div>
       </div>
       <div className="characteristics">
