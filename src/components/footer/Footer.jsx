@@ -4,6 +4,7 @@ import LocalPhoneOutlinedIcon from '@mui/icons-material/LocalPhoneOutlined';
 import MailOutlineOutlinedIcon from '@mui/icons-material/MailOutlineOutlined';
 
 export const Footer = () => {
+    console.log("Breuk")
   return (
     <div className="footer">
       <div className="contact-info">
